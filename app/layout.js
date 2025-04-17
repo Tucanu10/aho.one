@@ -3,7 +3,7 @@ import Header from "../components/header"
 
 export const metadata = {
   title: "Aho One | Architectural Design & Drafting",
-  description: "Expert architectural drafting and design services across the USA",
+  description: "Expert architectural drafting and design services",
 }
 
 export default function RootLayout({ children }) {

@@ -41,8 +41,8 @@ export default function Header() {
           <Image
             src="/ahoone.png"
             alt="Aho One"
-            width={50}
-            height={50}
+            width={80}
+            height={80}
             className="rounded-mg"
           />
           <span className="text-xl font-semibold text-white"></span>

@@ -39,7 +39,7 @@ export default function Portfolio() {
       <div className="container mx-auto px-6">
         <section className="mb-16">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-semibold text-white">Featured Projects</h2>
+            <h2 className="text-3xl font-semibold text-white">Our Projects</h2>
             <div className="flex gap-2">
               <button
                 onClick={handlePrev}

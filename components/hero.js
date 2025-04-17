@@ -2,12 +2,21 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Background overlays */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 opacity-50" />
+      <div className="absolute inset-0 opacity-50">
+        <Image
+        src={"/hero.png"}
+        alt={"hero"}
+        width={800}
+        height={600}
+        className="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,transparent_70%)]" />
       
       <div className="relative container mx-auto px-6 text-center">
@@ -15,7 +24,7 @@ export default function Hero() {
           Excellence in Architectural Design & Drafting
         </h1>
         <p className="text-xl md:text-2xl text-zinc-200 mb-8 max-w-2xl mx-auto">
-          Bringing architectural visions to life with precision, expertise, and dedication across the United States.
+          Bringing architectural visions to life with precision, expertise, and dedication.
         </p>
 
         {/* Wrap the Button in Link */}

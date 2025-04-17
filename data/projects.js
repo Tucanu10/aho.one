@@ -1,4 +1,4 @@
-// src/data/projects.js
+
 export const projects = [
     {
       id: 1,
@@ -20,7 +20,7 @@ export const projects = [
       id: 3,
       category: "Category",
       title: "Title",
-      gradient: "from-green-500 via-green-600 to-green-700",
+      gradient: "from-red-500 via-red-600 to-red-700",
       image: "",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
